@@ -1,0 +1,50 @@
+/* viewport */
+$vp-movil: 375px;
+$vp-movil_l:425px;
+$vp-tablet: 768px;
+$vp-desktop: 1024px;
+$vp-desktop-l:1440px;
+ 
+/* Colors */
+
+$sub-heading-color: hsl(276, 100%, 81%);
+$comment-other_user_color: hsl(276, 55%, 52%);
+$my-comment_color: hsl(271, 15%, 43%);
+$placeholder-color: hsl(206, 6%, 79%);
+$bg-main-heading: hsl(271, 36%, 24%);
+$paragraph-color: hsl(270, 7%, 64%);
+$white: hsl(0, 0%, 100%);
+$bg-app: hsl(270, 20%, 96%);
+$heading-color: hsl(271, 36%, 24%);
+$radio-buttom-color: hsl(289, 100%, 72%);
+$magenta: hsl(293, 100%, 63%);
+$violet: hsl(264, 100%, 61%);
+
+/* Gradients */
+$gradient-left: linear-gradient(to left,  $magenta 0%, $violet 100%);
+$gradient-right: linear-gradient(to right, $violet 0%, $magenta 100%);
+
+// $bg-shape: linear-gradient(0deg, $violet 20%, $magenta 120%);
+$bg-shape: linear-gradient(30deg, $violet 20%, $magenta 120%);
+
+/* shapes */
+$shape-width: 32.010625rem;
+$shape-height: 43.771687rem;
+
+$shape-x-offset-sm: -20.0625rem;
+$shape-y-offset-sm: -11.9375rem;
+
+
+$shape-left-x-offset-lg: -5.6997rem;
+$shape-left-y-offset-lg: -7.4983rem;
+
+$shape-right-x-offset-lg: -11.7312rem;
+$shape-right-y-offset-lg: -1.3245rem;
+
+/* cell */
+$cell__width: 15.613938rem;
+$cell__height: 31.701187rem;
+
+
+
+

@@ -1,0 +1,24 @@
+.form {
+    width: 100%;
+    height: 2.125rem;
+    font-size: .5rem;
+    background-color: $white;
+    color: $placeholder-color;
+    border-radius: 1.5rem;
+    padding: 1.125rem 1.363rem .8125rem;
+    margin-top: .5rem;
+    margin-bottom: .75rem;
+}
+.form__buttom {
+    width: 24px;
+    height: 24px;
+    background-color: $heading-color;
+    border-radius: 50%;
+    position: relative;
+    right: -10rem;
+    top: -1.375rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

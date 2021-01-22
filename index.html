@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Chat app illustration with sass and animation</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <div class="board board--lg">
+    <div class="wrapper wrapper--lg">
+      <div class="cell">
+        <div class="cell__frame">
+          <div class="app-header">
+            <div class="app-header__icon">
+              <img src="images/outline_arrow_back.png" width="18px" alt="back">
+            </div>
+            <div class="app-header__avatar">
+              <img src="images/avatar.jpg" alt="avatar">
+            </div>
+            <div class="app-header__info">
+              <h2 class="app-header__headding">
+                Samuel Green
+              </h2>
+              <p class="app-header__sub-heading">
+                Available to Walk
+              </p>
+            </div>
+            <div class="app-header__icon">
+              <img src="images/outline_more_vert.png" width="18px" alt="menu">
+            </div>
+          </div>
+          <div class="cell__top"></div>
+          <div class="chat">
+            <div class="message message--other message--animation">
+              That sounds great. I’d be happy with that.
+            </div>
+            <div class="message message--other message--end message--animation">
+              Could you send over some pictures of your dog, please?
+            </div>
+            <div class="group__attached message--animation">
+              <img src="images/dog-image-1.jpg" alt="dog-1" class="attached ">
+              <img src="images/dog-image-2.jpg" alt="dog-2" class="attached">
+              <img src="images/dog-image-3.jpg" alt="dog-3" class="attached ">
+            </div>
+            <div class="message message--my message--animation">
+              Here are a few pictures. She’s a happy girl!
+            </div>
+            <div class="message message--my .message--end message--animation">
+              Can you make it?
+            </div>
+            <div class="message message--other message--animation">
+              She looks so happy! The time we discussed works. How long shall I take her out for?
+            </div>
+            <div class="message--advertising message--animation">
+              <div class="advertising__icon"></div>
+              <div class="advertising__description">
+                30 minute walk
+              </div>
+              <div class="advertising__price">
+                $29
+              </div>
+            </div>
+            <div class="message--advertising .message--end message--animation">
+              <div class="advertising__icon"></div>
+              <div class="advertising__description">
+                1 hour walk
+              </div>
+              <div class="advertising__price ">
+                $49
+              </div>
+            </div>
+            <div class="form">
+              Type a message…
+              <div class="form__buttom">
+                <img src="images/outline_arrow_forward.png" alt="forward">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="promo">
+        <h1 class="promo__heading">
+          Simple booking
+        </h1>
+        <p class="promo__paragraph">
+          Stay in touch with our dog walkers through the chat interface. This makes it easy to discuss arrangements and
+          make bookings. Once the walk has been completed you can rate your walker and book again all through the chat.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+.cell {
+    background-color: $bg-app;
+    box-sizing: border-box;
+    width: $cell__width;
+    border-radius: 2rem;
+
+    box-shadow: 2px 2px 15px $placeholder-color;
+
+    opacity: 0;
+    transform: translateY(-10%);
+
+    animation: 
+        fade-slide-y 1s forwards, 
+        opacity 1s forwards;
+
+    @media(min-width: $vp-desktop) {
+        transform: translateX(-10%);
+        animation: 
+            fade-slide-x 1s forwards, 
+            opacity 1s forwards;
+    }
+    
+}
+
+.cell__frame {
+    width: 100%;
+    height: 100%;
+    border: .75rem solid $white;
+    border-radius: 2rem;
+}
+
+.cell__top {
+    width: 8rem;
+    height: 1.125rem;
+    background-color: $white;
+    border-radius: 0 0 1rem 1rem;
+    position: relative;
+    top: -4.0625rem;
+    left: 3.0625rem;
+
+}
+

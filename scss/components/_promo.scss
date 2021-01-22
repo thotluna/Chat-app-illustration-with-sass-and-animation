@@ -1,0 +1,22 @@
+.promo {
+    margin: 2em;
+    text-align: center;
+
+    @media(min-width: $vp-desktop) {
+        text-align: start;
+        padding-left: 5.3125rem;
+    }
+
+}
+
+.promo__heading {
+    font-size: 2.375em;
+    font-weight: bold;
+    margin-bottom: 2.125rem;
+}
+
+.promo__paragraph {
+    font-size: 1em;
+    line-height: 1.75;
+    max-width: 27.50rem
+}

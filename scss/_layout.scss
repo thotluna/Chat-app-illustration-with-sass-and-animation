@@ -1,0 +1,24 @@
+@font-face {
+    font-family: Rubik, sans-serif;
+    src: url(../font/Rubik-Regular.ttf);
+    font-weight: 400;
+
+    src: url(../font/Rubik-Medium.ttf);
+    font-weight: 500;
+
+    src:url(../font/Rubik-Bold.ttf);
+    font-weight: 700;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 375px;
+    max-width: 1440px;
+    font-family: Rubik, sans-serif;
+    background-color: hsl(0, 0%, 98%);
+}

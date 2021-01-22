@@ -1,0 +1,111 @@
+.chat {
+    margin: .5em;
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    max-width: 8rem;
+    width: fit-content;
+    font-size: .5rem;
+    padding: .5em;
+    margin-bottom: .5rem;
+}
+
+.message--my {
+    color: $my-comment_color;
+    background-color: $white;
+    border-radius: .5rem .5rem 0 .5rem;
+    align-self: flex-end;
+    box-shadow: 0 2px 5px $placeholder-color;
+}
+
+
+.message--end {
+    margin-bottom: 16px;
+}
+
+.message--other {
+    color: $comment-other_user_color;
+    background-color: hsl(280, 62%, 89%);
+    border-radius: .5rem .5rem .5rem 0;
+}
+
+.message--advertising {
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: $gradient-right;
+    border-radius: .5rem .5rem .5rem .2rem;
+    padding: .5em;
+    margin-bottom: .5rem;
+}
+
+.advertising__icon {
+    box-sizing: border-box;
+    width: 14px;
+    height: 14px;
+    border: .125rem solid $radio-buttom-color;
+    border-radius: 50%;
+    padding: .5rem;
+}
+.advertising__description {
+    font-size: .5rem;
+    color: white;
+}
+.advertising__price {
+    font-size: .75rem;
+    font-weight: 500;
+    color: white;
+}
+
+.group__attached {
+    display: flex;
+    justify-content: space-between;
+    width: 8.25rem;
+    margin-bottom: .5rem;
+    align-self: end;
+}
+
+.attached {
+    width: 40px;
+    height: 40px;
+    border-radius: .5rem;
+}
+
+.message--animation {
+    transform: scale(0);
+    animation: message-animation .5s forwards;
+    &:nth-of-type(1) {
+        animation-delay: 1s;
+    }
+    &:nth-of-type(2) {
+        animation-delay: 1.5s;
+    }
+    &:nth-of-type(3) {
+        animation-delay: 2.5s;
+    }
+    &:nth-of-type(4) {
+        animation-delay: 3s;
+    }
+    &:nth-of-type(5) {
+        animation-delay: 3.5s;
+    }
+    &:nth-of-type(6) {
+        animation-delay: 4.5s;
+    }
+    &:nth-of-type(7) {
+        animation-delay: 5.6s;
+    }
+    &:nth-of-type(8) {
+        animation-delay: 6.3s;
+    }
+
+}
+
+
+
+
+
+
